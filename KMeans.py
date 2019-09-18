@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import sklearn
 from sklearn.cluster import KMeans
 
-dataset = pd.read_csv("C:/Ram Folders/Python/Data/RAM/K-Means-clustering-master/Customers.csv")
+dataset = pd.read_csv("/K-Means-clustering/Customers.csv")
 
 X = dataset.iloc[:,3:4]
 
